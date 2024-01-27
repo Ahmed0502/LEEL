@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>OWL</title>
+    <link rel="stylesheet" href="bstyle.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+                <li><a href="BOMA.html">BOMA</a></li>
+                <li><a href="letter.html">Letter</a></li>
+                <li><a href="apology.html">Apology</a></li>
+                <li><a href="memories.html">Memories :(</a></li>
+            </ul>
+        </nav>
+    </header>
+    <ul class="help-container">
+      <li>Move the mouse in box to rotate LeeL's eye</li>
+      <li>Hold outside the box to make LeeL sleep</li>
+      <li>Click anywhere on owl to make LeeL angry</li>
+    </ul>
+    <div class="container" onmousemove="mouseMove(event,this)" onmouseleave="mouseOut(event,this)">
+        <div class="owl-body-top">
+            <p style="text-align: center;">Pagalal BOMA</p>
+        </div>
+        <div class="owl-body-bottom flex-row align-center-center wrap" onclick="angryStart(event)">
+            <div class="feather-container flex-row align-center-center wrap">
+                <div class="body-feather"></div>
+                <div class="body-feather"></div>
+                <div class="body-feather"></div>
+                <div class="body-feather"></div>
+                <div class="body-feather"></div>
+            </div>
+        </div>
+        <div class="owl-eye-outer-border eye-position-left" onclick="angryStart(event)"></div>
+        <div id="eyeLeft" class="eye-blank-area eye-blank-pos-left" onclick="angryStart(event)">
+            <div id="pupilLeft" class="pupil">
+                <div class="shine"></div>
+            </div>
+        </div>
+        <div class="eye-lid-up eye-blank-pos-left" onclick="angryStart(event)"></div>
+        <div class="eye-lid-down eye-blank-pos-left mt85" onclick="angryStart(event)"></div>
+
+        <div class="owl-eye-outer-border eye-position-right" onclick="angryStart(event)"></div>
+        <div id="eyeRight" class="eye-blank-area eye-blank-pos-right" onclick="angryStart(event)">
+            <div id="pupilRight" class="pupil">
+                <div class="shine"></div>
+            </div>
+        </div>
+        <div class="eye-lid-up eye-blank-pos-right" onclick="angryStart(event)"></div>
+        <div class="eye-lid-down eye-blank-pos-right mt85" onclick="angryStart(event)"></div>
+        <div class="wing-left" onclick="angryStart(event)"></div>
+        <div class="wing-right" onclick="angryStart(event)"></div>
+        <div class="peak" onclick="angryStart(event)"></div>
+        <div class="feet-left flex-row align-center-center">
+            <div class="finger"></div>
+            <div class="finger"></div>
+            <div class="finger"></div>
+        </div>
+        <div class="feet-right flex-row align-center-center">
+            <div class="finger"></div>
+            <div class="finger"></div>
+            <div class="finger"></div>
+        </div>
+        <div class="ear pos-ear-left"></div>
+        <div class="ear pos-ear-right"></div>
+    </div>
+    <p style="font-weight: bolder;" class="footer-heart">
+        Made with <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+      <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"></g-emoji> by Ahmed</a>
+      </p>
+    <script src="bscript.js"></script>
+</body>
+
+</html>

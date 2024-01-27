@@ -1,0 +1,63 @@
+.navbar {
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    overflow: hidden; /* Prevent content from overflowing and wrapping */
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    overflow: hidden; /* Prevent content from overflowing and wrapping */
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block; /* Make list items display horizontally */
+    margin: 13px 10px;
+}
+
+.navbar li a {
+    padding: 3px 6px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.navbar li a:hover {
+    color: rgb(8, 242, 12);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous');
+
+.body1 {
+    background-image: url('video.gif');
+    background-size: cover;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text h1 {
+    margin: -10%;
+    font-size: clamp(40px, 60vw, 60px);
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+
+.footer-heart{text-align:center;font-family: open sans, sans-serif;}
+
+.footer-heart a{border-bottom: 1px solid #453886;color: #453886;padding-bottom: .25em; text-decoration: none;}
+
+
+.emoji{vertical-align: middle;}
